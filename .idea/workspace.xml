@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="93d8de26-1783-4be2-93a8-a8c29ca87760" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Ян/Desktop/Проекты/Glint/styles",
+    "last_opened_file_path": "C:/Users/Ян/Desktop/Проекты/Glint",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,6 +80,7 @@
       <workItem from="1661144834097" duration="2809000" />
       <workItem from="1661150353186" duration="2263000" />
       <workItem from="1661161870936" duration="11194000" />
+      <workItem from="1661186714681" duration="876000" />
     </task>
     <servers />
   </component>

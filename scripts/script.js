@@ -9,29 +9,36 @@ window.onload = function () {
         });
     }
 
-    let notLink = $('.not-link');
+    let notLink = $('.not-link'),
+        notLinlkA = $('.not-link-a');
+
     if ($(window).width() < 653) {
-        notLink.html('<a href="#">О нас</a>');
+        notLinlkA.attr("href", "#!");
     }
 
-    let aboutListBurger = $('.about-list-burger');
-    let languageText = $('.language-text'),
-        languageList = $('.language-list');
+    let aboutListBurger = $('.about-list-burger'),
+        language = $('.language'),
+        languageList = $('.language-list'),
+        aboutArrow = $('.about-arrow');
+
     notLink.on("click", function () {
         aboutListBurger.toggle();
+        aboutArrow.toggleClass('about-arrow-burger');
     });
 
-    languageText.on("click", function () {
+    language.on("click", function () {
         languageList.toggle();
     });
 
 // Закрытие выпадающих списков, попап и т.п.
-    $(document).mouseup(function (e) {
-        var container = languageList;
-        if (container.has(e.target).length === 0) {
-            container.hide();
-        }
-    });
+//     if (languageList.css('display', 'block')) {
+        $(document).mouseup(function (e) {
+            var container = languageList;
+            if (container.has(e.target).length === 0) {
+                container.hide();
+            }
+        })
+    // }
 
     $('.slider').slick({
         dots: true,
@@ -71,7 +78,6 @@ window.onload = function () {
 
     recordButton.onclick = function () {
         recordWindow.style.display = 'block';
-
     }
 
     closeRecord.onclick = function () {
@@ -220,9 +226,11 @@ window.onload = function () {
             for (let i = 0; i < servicesMenu.length; i++) {
                 servicesItem[i].classList.remove('services-item-active');
                 servicesMenu[i].classList.remove('services-active');
+                servicesItem[i].classList.remove('animate__fadeIn');
             }
             servicesItem[i].classList.add('services-item-active');
             servicesMenu[i].classList.add('services-active');
+            servicesItem[i].classList.add('animate__fadeIn');
         }
     }
 
@@ -231,9 +239,11 @@ window.onload = function () {
             for (let i = 0; i < tableMenu.length; i++) {
                 tableInfo[i].classList.remove('table-info-active');
                 tableMenu[i].classList.remove('table-active');
+                tableInfo[i].classList.remove('animate__fadeIn');
             }
             tableInfo[i].classList.add('table-info-active');
             tableMenu[i].classList.add('table-active');
+            tableInfo[i].classList.add('animate__fadeIn');
         }
     }
 
@@ -267,9 +277,11 @@ window.onload = function () {
             for (let i = 0; i < specialistsMenu.length; i++) {
                 specialistsInfo[i].classList.remove('specialists-info-active');
                 specialistsMenu[i].classList.remove('specialists-active');
+                specialistsInfo[i].classList.remove('animate__fadeIn');
             }
             specialistsInfo[i].classList.add('specialists-info-active');
             specialistsMenu[i].classList.add('specialists-active');
+            specialistsInfo[i].classList.add('animate__fadeIn');
         }
     }
 
@@ -279,10 +291,12 @@ window.onload = function () {
                 sNameProf[i].classList.remove('spec-active');
                 specialistImage[i].classList.remove('spec-im-active');
                 specialistDescription[i].classList.remove('specialist-description-active');
+                specialistDescription[i].classList.remove('animate__fadeIn');
             }
             sNameProf[i].classList.add('spec-active');
             specialistImage[i].classList.add('spec-im-active');
             specialistDescription[i].classList.add('specialist-description-active');
+            specialistDescription[i].classList.add('animate__fadeIn');
         }
     }
 
@@ -337,7 +351,7 @@ window.onload = function () {
     }
 
     if (one) {
-        setInterval(SetImage, 4000);
+        // setInterval(SetImage, 4000);
     }
 
     let vacancyPopupButton = document.getElementsByClassName('vacancy-popup-button')[0],
@@ -411,7 +425,7 @@ window.onload = function () {
 
     window.addEventListener('scroll', changeMenu);
 
-    function changeMenu(e) {
+    function changeMenu() {
 
         let windowScroll = document.documentElement.scrollTop;
 

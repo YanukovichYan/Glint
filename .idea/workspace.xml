@@ -6,6 +6,29 @@
   <component name="ChangeListManager">
     <list default="true" id="93d8de26-1783-4be2-93a8-a8c29ca87760" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/awards-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/awards-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/awards-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/awards-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/awards-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/awards-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/awards-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/awards-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/awards-6.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/awards-6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/awards-8.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/awards-8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/leader1-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/leader1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/about-us.awards.html" beforeDir="false" afterPath="$PROJECT_DIR$/index/about-us.awards.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/about-us.gift-certificates.html" beforeDir="false" afterPath="$PROJECT_DIR$/index/about-us.gift-certificates.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/about-us.index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index/about-us.index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/about-us.our-specialists.html" beforeDir="false" afterPath="$PROJECT_DIR$/index/about-us.our-specialists.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/about-us.reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/index/about-us.reviews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/about-us.vacancies.html" beforeDir="false" afterPath="$PROJECT_DIR$/index/about-us.vacancies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/contacts.index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index/contacts.index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/our-work.index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index/our-work.index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/services.index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index/services.index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/stock.index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index/stock.index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/adaptive.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/adaptive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,20 +63,21 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Ян/Desktop/Проекты/Glint",
+    "last_opened_file_path": "C:/Users/Ян/Desktop/Проекты/Glint/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Ян\Desktop\Проекты\Glint\styles" />
       <recent name="C:\Users\Ян\Desktop\Проекты\Glint\images" />
       <recent name="C:\Users\Ян\Desktop\Проекты\Glint\scripts" />
+      <recent name="C:\Users\Ян\Desktop\Проекты\Glint\styles" />
       <recent name="C:\Users\Ян\Desktop\Проекты\Glint" />
       <recent name="C:\Users\Ян\Desktop\Проекты\Glint\favicon" />
     </key>
@@ -80,7 +104,9 @@
       <workItem from="1661144834097" duration="2809000" />
       <workItem from="1661150353186" duration="2263000" />
       <workItem from="1661161870936" duration="11194000" />
-      <workItem from="1661186714681" duration="876000" />
+      <workItem from="1661186714681" duration="5175000" />
+      <workItem from="1661325277384" duration="30269000" />
+      <workItem from="1661361022710" duration="754000" />
     </task>
     <servers />
   </component>

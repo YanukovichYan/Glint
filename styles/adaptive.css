@@ -171,17 +171,15 @@
     }
 
     .services-item {
-        flex-direction: column;
-        align-items: center;
+        justify-content: center;
     }
 
+    .table-info {
+        padding-right: 0;
+    }
 
-    .table-titles {
-        display: flex;
-        align-items: center;
-        width: unset;
-        height: unset;
-        border-right: 0;
+    .services-table-image {
+        display: none;
     }
 
     .table-title {
@@ -191,7 +189,7 @@
 
     .table-actions {
         text-align: center;
-        padding: 50px 0 0 0;
+        padding-top: 25px;
     }
 
     .services-table-image {
@@ -243,12 +241,15 @@
 }
 
 @media screen and (max-width: 1024px) {
+
     .vacancy-popup-button {
         margin-top: 15px;
     }
+
     .vacancy-popup-bottom {
         flex-direction: column;
     }
+
     .button-scroll-top {
         right: 20px;
         bottom: 20px;
@@ -479,6 +480,7 @@
 
     .about-button {
         text-align: center;
+        margin-top: 0;
     }
 
     .services {
@@ -507,7 +509,21 @@
     }
 }
 
+@media screen and (max-width: 890px) {
+    .promotion-text {
+        font-size: 25px;
+    }
+}
+
 @media screen and (max-width: 878px) {
+    .agree {
+        flex-wrap: wrap;
+    }
+
+    .agree a {
+        padding-left: 0;
+    }
+
     .reviews-window {
         padding-top: 0;
         align-items: center;
@@ -552,6 +568,7 @@
 @media screen and (max-width: 860px) {
     .stock-popup {
         width: 450px;
+        height: 635px;
     }
 
     .stock-popup-image {
@@ -628,6 +645,34 @@
 }
 
 @media screen and (max-width: 768px) {
+    .contacts-info-social {
+        margin-bottom: 30px;
+    }
+    .stock-item-info {
+        margin-left: 0;
+    }
+
+    .stock-item {
+        align-items: flex-start;
+    }
+
+    .promotion-first {
+        background-image: none;
+        background-color: #F9F8DC;
+    }
+
+    .services-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .table-titles {
+        display: flex;
+        align-items: center;
+        width: unset;
+        height: unset;
+        border-right: 0;
+    }
 
     .awards-items {
         grid-template-columns: 305px;
@@ -708,10 +753,6 @@
         width: 100%;
     }
 
-    .promotion-text {
-        font-size: 25px;
-    }
-
     .header .container {
         justify-content: space-around;
     }
@@ -783,7 +824,7 @@
     }
 
     .footer {
-        padding: 60px;
+        padding-top: 60px;
     }
 
     .footer .container {
@@ -858,9 +899,13 @@
 }
 
 @media screen and (max-width: 526px) {
+    .discount-text {
+        padding: 36px 0;
+    }
     .agree a {
         font-size: 11px;
     }
+
     .reviews-title {
         font-size: 50px;
         line-height: 1;
@@ -931,7 +976,7 @@
     }
 
     .about-us-items {
-        grid-template-columns: 290px;
+        grid-template-columns: auto;
     }
 
     .about-us-title {
@@ -939,7 +984,7 @@
     }
 
     .about-us-item {
-        width: 290px;
+        width: 100%;
     }
 
     .about-us-item img {
@@ -948,14 +993,36 @@
 }
 
 @media screen and (max-width: 500px) {
+
+    .reviews-stars {
+        margin-bottom: 20px;
+    }
+
+    .stock-popup-title {
+        font-size: 29px;
+    }
+
+    .stock-close {
+        top: 15px;
+        right: 15px;
+    }
+
+    .stock-popup-text {
+        padding: 25px 0;
+    }
+
+    .certificates-items {
+        padding: 50px 0 20px 0;
+    }
+
     .button-scroll-top {
         bottom: 15px;
         right: 15px;
     }
 
     .button-scroll-top svg {
-        width: 25px;
-        height: 25px;
+        width: 35px;
+        height: 35px;
     }
 
     .reviews-close {
@@ -965,7 +1032,8 @@
 
     .reviews-popup {
         width: 350px;
-        height: 735px;
+        height: 710px;
+        padding: 30px 15px 15px 15px;
     }
 
     .reviews-textarea::placeholder {
@@ -993,7 +1061,8 @@
     }
 
     .stock-popup {
-        width: 290px;
+        width: 400px;
+        height: 415px;
         padding: 30px;
     }
 
@@ -1014,9 +1083,9 @@
     }
 
     .record-services {
-        width: 290px;
+        width: 350px;
+        height: 450px;
         padding: 100px 15px;
-        height: 500px;
     }
 
     .record-title {
@@ -1033,6 +1102,16 @@
 }
 
 @media screen and (max-width: 426px) {
+    .stock-popup {
+        width: 350px;
+        height: 470px;
+    }
+
+    .cosmo-design {
+        display: flex;
+        flex-direction: column;
+    }
+
     .nav-links {
         /*flex-direction: column;*/
     }
@@ -1087,7 +1166,6 @@
         font-size: 40px;
     }
 
-
     .table-title:last-child {
         margin-right: 0;
     }
@@ -1106,10 +1184,6 @@
         line-height: unset;
     }
 
-    .certificates {
-        padding-top: 30px;
-    }
-
     .certificates-title {
         line-height: unset;
     }
@@ -1124,6 +1198,15 @@
 }
 
 @media screen and (max-width: 410px) {
+    .social-networks {
+        width: 338px;
+        margin: 0 auto;
+    }
+
+    .social-networks-text {
+        font-size: 15px;
+    }
+
     .recall-item {
         padding: 15px;
     }
@@ -1138,9 +1221,7 @@
 }
 
 @media screen and (max-width: 396px) {
-    .agree {
-        flex-wrap: wrap;
-    }
+
     .vacancy-popup {
         width: 290px;
         height: 805px;
@@ -1181,6 +1262,20 @@
 }
 
 @media screen and (max-width: 376px) {
+    .record-services {
+        width: 290px;
+        height: 425px;
+    }
+
+    .stock-popup {
+        width: 290px;
+        height: 540px;
+    }
+
+    .social-networks {
+        width: 290px;
+        padding: 36px 0;
+    }
 
     .awards-title {
         font-size: 30px

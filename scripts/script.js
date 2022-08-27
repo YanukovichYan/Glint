@@ -32,12 +32,12 @@ window.onload = function () {
 
 // Закрытие выпадающих списков, попап и т.п.
 //     if (languageList.css('display', 'block')) {
-        $(document).mouseup(function (e) {
-            var container = languageList;
-            if (container.has(e.target).length === 0) {
-                container.hide();
-            }
-        })
+    $(document).mouseup(function (e) {
+        var container = languageList;
+        if (container.has(e.target).length === 0) {
+            container.hide();
+        }
+    })
     // }
 
     $('.slider').slick({
@@ -156,6 +156,7 @@ window.onload = function () {
 // Добавление title в popup вакансии
     let accordionTitles = document.getElementsByClassName('accordion-button');
     let vacancyNameText = document.getElementsByClassName('vacancy-name-text')[0];
+    let header = document.getElementsByClassName('header')[0];
     let arrTitles = [];
 
     for (let i = 0; i < accordionTitles.length; i++) {
@@ -165,6 +166,7 @@ window.onload = function () {
     for (let i = 0; i < vacanciesButton.length; i++) {
         vacanciesButton[i].onclick = function () {
             vacancyWindow.style.display = 'flex';
+            header.style.display = 'none';
             vacancyNameText.innerText = arrTitles[i];
         }
     }
@@ -172,6 +174,7 @@ window.onload = function () {
     if (vacancyClose) {
         vacancyClose.onclick = function () {
             vacancyWindow.style.display = 'none';
+            header.style.display = 'block';
         }
     }
 
@@ -182,11 +185,13 @@ window.onload = function () {
     if (reviewsButton) {
         reviewsButton.onclick = function () {
             reviewsWindow.style.display = 'flex';
+            header.style.display = 'none';
         }
     }
     if (reviewsClose) {
         reviewsClose.onclick = function () {
             reviewsWindow.style.display = 'none';
+            header.style.display = 'block';
         }
     }
 

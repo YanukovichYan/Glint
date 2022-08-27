@@ -98,6 +98,15 @@
         padding-top: 70px;
     }
 
+    .contacts-main {
+        justify-content: center;
+        grid-gap: 0 50px;
+    }
+
+    .contacts-map {
+        width: 650px;
+    }
+
     .contacts-info {
         padding-left: 0;
     }
@@ -211,10 +220,6 @@
         padding-left: 60px;
     }
 
-    .contacts-main {
-        flex-direction: column;
-    }
-
     .contacts-info {
         margin-bottom: 30px;
     }
@@ -237,6 +242,12 @@
     .awards-items {
         grid-gap: 65px 0;
         justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1083px) {
+    .contacts-map {
+        width: 500px;
     }
 }
 
@@ -358,10 +369,6 @@
 
     .our-work-menu ul li {
         margin-right: 0;
-    }
-
-    .contacts-map {
-        max-width: 100%;
     }
 
     .contacts-map img {
@@ -645,9 +652,29 @@
 }
 
 @media screen and (max-width: 768px) {
+    .specialist-table-image {
+        display: none;
+    }
+    .error {
+        background-image: url("../images/bg-error-768.png");
+    }
+    .error-title {
+        font-size: 180px;
+    }
+
+    .contacts-main {
+        flex-direction: column;
+        grid-gap: 35px 0;
+    }
+
+    .contacts-map {
+        max-width: 100%;
+    }
+
     .contacts-info-social {
         margin-bottom: 30px;
     }
+
     .stock-item-info {
         margin-left: 0;
     }
@@ -838,6 +865,10 @@
 }
 
 @media screen and (max-width: 590px) {
+    .error-title {
+        font-size: 150px;
+    }
+
     .awards-title {
         font-size: 35px;
         line-height: 1.4;
@@ -1176,7 +1207,10 @@
     .specialists-menu ul {
         flex-direction: column;
         flex-wrap: unset;
-        align-items: unset;
+    }
+
+    .specialists-menu ul li {
+        margin-right: 0;
     }
 
     .about-title {
@@ -1193,6 +1227,14 @@
 }
 
 @media screen and (max-width: 410px) {
+    .error-title {
+        font-size: 100px;
+    }
+
+    .error-text {
+        font-size: 24px;
+    }
+
     .social-networks {
         width: 338px;
         margin: 0 auto;

@@ -42,8 +42,8 @@ window.onload = function () {
 
     $('.slider').slick({
         dots: true,
-        // autoplay: true,
-        // autoplaySpeed: 3500,
+        autoplay: true,
+        autoplaySpeed: 3500,
         speed: 1500,
     });
 
@@ -52,8 +52,8 @@ window.onload = function () {
         speed: 1500,
         slidesToShow: 3,
         slidesToScroll: 3,
-        // autoplay: true,
-        // autoplaySpeed: 3500,
+        autoplay: true,
+        autoplaySpeed: 3500,
         responsive: [
             {
                 breakpoint: 1460,
@@ -356,7 +356,7 @@ window.onload = function () {
     }
 
     if (one) {
-        // setInterval(SetImage, 4000);
+        setInterval(SetImage, 4000);
     }
 
     let vacancyPopupButton = document.getElementsByClassName('vacancy-popup-button')[0],

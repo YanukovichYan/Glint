@@ -218,19 +218,42 @@ window.onload = function () {
 
     for (let i = 0; i < servicesMenu.length; i++) {
         servicesMenu[i].onclick = function () {
+
+            console.log(tableInfo);
+
+            let Delete = [1, 2, 3, 5, 6, 7, 9, 10, 11, 13, 14, 15, 17, 18, 19];
+
+            tableInfo[1].classList.remove('table-info-active');
+            tableInfo[2].classList.remove('table-info-active');
+            tableInfo[3].classList.remove('table-info-active');
+            tableInfo[5].classList.remove('table-info-active');
+            tableInfo[6].classList.remove('table-info-active');
+            tableInfo[7].classList.remove('table-info-active');
+            tableInfo[9].classList.remove('table-info-active');
+            tableInfo[10].classList.remove('table-info-active');
+            tableInfo[11].classList.remove('table-info-active');
+            tableInfo[13].classList.remove('table-info-active');
+            tableInfo[14].classList.remove('table-info-active');
+            tableInfo[15].classList.remove('table-info-active');
+            tableInfo[17].classList.remove('table-info-active');
+            tableInfo[18].classList.remove('table-info-active');
+            tableInfo[19].classList.remove('table-info-active');
+
             tableInfo[0].classList.add('table-info-active');
             tableInfo[4].classList.add('table-info-active');
             tableInfo[8].classList.add('table-info-active');
             tableInfo[12].classList.add('table-info-active');
             tableInfo[16].classList.add('table-info-active');
+
             tableMenu[0].classList.add('table-active');
             tableMenu[4].classList.add('table-active');
             tableMenu[8].classList.add('table-active');
             tableMenu[12].classList.add('table-active');
             tableMenu[16].classList.add('table-active');
+
             for (let i = 0; i < servicesMenu.length; i++) {
-                servicesItem[i].classList.remove('services-item-active');
                 servicesMenu[i].classList.remove('services-active');
+                servicesItem[i].classList.remove('services-item-active');
                 servicesItem[i].classList.remove('animate__fadeIn');
             }
             servicesItem[i].classList.add('services-item-active');
@@ -259,10 +282,52 @@ window.onload = function () {
         specialistItem = document.getElementsByClassName('specialist-item'),
         sNameProf = document.getElementsByClassName('s-name-prof'),
         specialistImage = document.getElementsByClassName('specialist-image'),
-        specialistDescription = document.getElementsByClassName('specialist-description');
+        specialistDescription = document.getElementsByClassName('specialist-description'),
+        specialistTableImage = document.getElementsByClassName('specialist-table-image');
 
     for (let i = 0; i < specialistsMenu.length; i++) {
         specialistsMenu[i].onclick = function () {
+
+
+            // var Delete = [specialistDescription[1], specialistDescription[2], specialistDescription[3], specialistDescription[5], specialistDescription[6], specialistDescription[7], specialistDescription[9], specialistDescription[10], specialistDescription[11], specialistDescription[13], specialistDescription[14], specialistDescription[15], specialistDescription[17], specialistDescription[18], specialistDescription[19]];
+            //
+            // console.log(Delete);
+            //
+            // specialistDescription[Delete].classList.remove('specialist-description-active');
+
+            specialistDescription[1].classList.remove('specialist-description-active');
+            specialistDescription[2].classList.remove('specialist-description-active');
+            specialistDescription[3].classList.remove('specialist-description-active');
+            specialistDescription[5].classList.remove('specialist-description-active');
+            specialistDescription[6].classList.remove('specialist-description-active');
+            specialistDescription[7].classList.remove('specialist-description-active');
+            specialistDescription[9].classList.remove('specialist-description-active');
+            specialistDescription[10].classList.remove('specialist-description-active');
+            specialistDescription[11].classList.remove('specialist-description-active');
+            specialistDescription[13].classList.remove('specialist-description-active');
+            specialistDescription[14].classList.remove('specialist-description-active');
+            specialistDescription[15].classList.remove('specialist-description-active');
+            specialistDescription[17].classList.remove('specialist-description-active');
+            specialistDescription[18].classList.remove('specialist-description-active');
+            specialistDescription[19].classList.remove('specialist-description-active');
+
+
+            specialistTableImage[1].classList.remove('specialist-image-active');
+            specialistTableImage[2].classList.remove('specialist-image-active');
+            specialistTableImage[3].classList.remove('specialist-image-active');
+            specialistTableImage[5].classList.remove('specialist-image-active');
+            specialistTableImage[6].classList.remove('specialist-image-active');
+            specialistTableImage[7].classList.remove('specialist-image-active');
+            specialistTableImage[9].classList.remove('specialist-image-active');
+            specialistTableImage[10].classList.remove('specialist-image-active');
+            specialistTableImage[11].classList.remove('specialist-image-active');
+            specialistTableImage[13].classList.remove('specialist-image-active');
+            specialistTableImage[14].classList.remove('specialist-image-active');
+            specialistTableImage[15].classList.remove('specialist-image-active');
+            specialistTableImage[17].classList.remove('specialist-image-active');
+            specialistTableImage[18].classList.remove('specialist-image-active');
+            specialistTableImage[19].classList.remove('specialist-image-active');
+
             specialistDescription[0].classList.add('specialist-description-active');
             specialistDescription[4].classList.add('specialist-description-active');
             specialistDescription[8].classList.add('specialist-description-active');
@@ -278,6 +343,11 @@ window.onload = function () {
             sNameProf[8].classList.add('spec-active');
             sNameProf[12].classList.add('spec-active');
             sNameProf[16].classList.add('spec-active');
+            specialistTableImage[0].classList.add('specialist-image-active');
+            specialistTableImage[4].classList.add('specialist-image-active');
+            specialistTableImage[8].classList.add('specialist-image-active');
+            specialistTableImage[12].classList.add('specialist-image-active');
+            specialistTableImage[16].classList.add('specialist-image-active');
 
             for (let i = 0; i < specialistsMenu.length; i++) {
                 specialistsInfo[i].classList.remove('specialists-info-active');
@@ -297,11 +367,15 @@ window.onload = function () {
                 specialistImage[i].classList.remove('spec-im-active');
                 specialistDescription[i].classList.remove('specialist-description-active');
                 specialistDescription[i].classList.remove('animate__fadeIn');
+                specialistTableImage[i].classList.remove('animate__fadeIn');
+                specialistTableImage[i].classList.remove('specialist-image-active');
             }
             sNameProf[i].classList.add('spec-active');
             specialistImage[i].classList.add('spec-im-active');
             specialistDescription[i].classList.add('specialist-description-active');
             specialistDescription[i].classList.add('animate__fadeIn');
+            specialistTableImage[i].classList.add('animate__fadeIn');
+            specialistTableImage[i].classList.add('specialist-image-active');
         }
     }
 

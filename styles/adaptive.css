@@ -1024,6 +1024,11 @@
 }
 
 @media screen and (max-width: 500px) {
+    .slick-prev,
+    .slick-next {
+        display: none;
+    }
+
     .certificates-title {
         line-height: unset;
         font-size: 35px;

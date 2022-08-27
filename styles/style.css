@@ -990,6 +990,14 @@ body {
     display: block;
 }
 
+.specialist-table-image {
+    display: none;
+}
+
+.specialist-image-active {
+    display: block;
+}
+
 .specialist-title {
     font-family: Inter-Medium, sans-serif;
     font-size: 18px;

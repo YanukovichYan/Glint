@@ -993,6 +993,10 @@
 }
 
 @media screen and (max-width: 500px) {
+    .certificates-title {
+        line-height: unset;
+        font-size: 35px;
+    }
 
     .reviews-stars {
         margin-bottom: 20px;
@@ -1137,7 +1141,6 @@
         width: 100%;
     }
 
-
     .discount-title {
         font-size: 28px;
     }
@@ -1152,10 +1155,6 @@
 
     .specialist-table-image img {
         width: 100%;
-    }
-
-    .certificates-title {
-        font-size: 35px;
     }
 
     .services-title {
@@ -1181,10 +1180,6 @@
     }
 
     .about-title {
-        line-height: unset;
-    }
-
-    .certificates-title {
         line-height: unset;
     }
 
